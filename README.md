@@ -2,6 +2,11 @@
 
 The aim of this project is to have hands-on experience about processing live data streams (Twitter) using Kafka, Spark’s streaming APIs, Python, PySpark that follows ETL Pipeline Architecture and checking the sentiment of real-time tweets at the end for a given twitter hashtag. 
 
+This project have 2 stages:
+
+a) Establsing connection to Twitter and Kafka broker to receive live tweets for a given twitter hastag.
+b) Collecting the tweets to Kafka Consumer, applying Spark Transformations using PySpark for tweets and display the Sentiment count at the end of application run.
+
 ##Requirements
 One of the first requirements is to get access to the streaming data; in this case, real-time tweets. Twitter provides a very 
 convenient API to fetch tweets in a streaming manner 
