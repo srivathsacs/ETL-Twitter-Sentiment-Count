@@ -1,6 +1,6 @@
 #Twitter Sentiment Analytics using Apache Spark Streaming APIs and Python 
 
-The aim of this project is to have hands-on experience about processing live data streams (Twitter) using Kafka, Spark’s streaming APIs, Python, PySpark that follows ETL Pipeline Architecture and checking the sentiment of real-time tweets at the end for a given twitter hashtag. 
+The aim of this project is to build data pipeline that process live data streams from Twitter for a given twitter hashtag using Python, PySpark, Kafka, Spark’s streaming, Twitter API and checking the sentiment of real-time tweets at the end of the application run. 
 
 This project have 2 stages:
 
